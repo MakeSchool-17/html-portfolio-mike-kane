@@ -1,0 +1,112 @@
+border:* { margin: 0; padding: 0; }
+
+body {
+    background-color: aliceblue;
+    color: #333333;
+    font-family: "Courier-New", Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+
+.header {
+    border-top: solid 8px #019cdb; 
+    margin-bottom: 18px; /* new addition */
+   }
+
+.main-img {
+    margin-top: -40px;
+    width: 35%;
+    height: 35%;
+   }
+
+.nav {
+    margin-top: 12px;
+    margin-left: 10%;
+    
+}
+
+.nav-item {
+    display: inline;
+    list-style: none;
+}
+
+a {
+   color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #48b2e8;
+}
+
+.title {
+   letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #019cdb;
+    text-align: center;
+}
+
+.footer-sub {
+    font-size: 30px;
+}
+
+.button {
+    border: 2px solid #019cdb;
+    display: inline-block;
+    color: #019cdb;
+    padding: 12px 30px;
+    font-size: 20px;
+    margin-top: 12px;
+    
+}
+
+.button:hover {
+    background-color: green;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.main {
+    font-size: 78px;
+}
+
+.sub {
+    font-size: 56px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.flex {
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.logo {
+    z-index: 3;
+    width: 100px;
+    border: none;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.line {
+    border-top: 1px solid #828282;
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.main-wrapper {
+    min-height: calc(100vh - 126px);
+}
