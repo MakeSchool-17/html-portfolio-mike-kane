@@ -124,12 +124,48 @@ a:hover {
     width: 60%;
 }
 
-
-
-@media (min-width: 482px) and (max-width:767px) {
-    .title {
-        color: blue;
+@media (max-width:481px) {
+    .main {
+        
     }
+    .sub {
+        
+    }
+    
+    .img-wrapper {
+        width: 95%;
+    }
+}
+
+@media (min-width:482px) and (max-width:630px) {
+    .main {
+        font-size: 64px;
+    }
+    
+    .sub {
+        font-size: 46px;
+    }
+    
+    .img-wrapper {
+        width: 75%;
+    }
+}
+
+@media (min-width: 631px) and (max-width:767px) {
+    .main {
+        font-size: 46px;
+    }
+    
+    .sub {
+        font-size: 33px;
+    }
+    
+    .img-wrapper {
+        width: 65%;
+    }
+}
+
+@media (max-width:992px) {
     .main {
         font-size: 64px;
     }
@@ -139,18 +175,6 @@ a:hover {
     }
 }
 
-
-@media (max-width:482px) {
-    .title {
-        color: red;
-    }
-}
-
-
-@media (max-width:992px) {
-    
-}
-
 @media (min-width:993px) {
-    
+
 }
