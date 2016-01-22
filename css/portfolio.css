@@ -38,6 +38,7 @@ a:hover {
     color: #019cdb;
     text-transform: uppercase;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .main {
@@ -59,6 +60,7 @@ a:hover {
      font-size: 20px;
      margin-top: 12px;
      padding: 12px 30px;
+    background-color: transparent;
 }
 
 .button:hover {
@@ -177,4 +179,15 @@ a:hover {
 
 @media (min-width:993px) {
 
+}
+
+.input-field {
+    width: 30%;
+    margin: 1%;
+    max-width: 650px;
+    line-height: 2em;
+    font-size: 1em;
+    padding: 6px;
+    border-radius: 2%;
+    border: 1px solid #019CDB;
 }

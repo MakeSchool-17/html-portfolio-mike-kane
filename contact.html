@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+         <title>Mike Kane | Gallery</title>
+         <link rel="stylesheet" type="text/css" href="vendor/justified/justifiedGallery.min.css">
+         <link rel="stylesheet" type="text/css" href="vendor/swipebox/css/swipebox.min.css">
+         <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+     </head>
+
+     <body>            
+         <header class="header">
+             <nav class="nav">
+                 <ul>
+                     <li class="nav-item"><a href="./index.html">Home</a></li>
+                     <li class="nav-item"><a href="./gallery.html">Gallery</a></li>
+                     <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                 </ul>
+             </nav>
+         </header>
+         
+         
+         <section>
+            <h2 class="sub title">Contact Me!</h2>
+            <form class="flex column">
+                
+                <input id="js-email" class="input-field" type="email" placeholder="your email" required name="_replyto" />
+                
+                <input  type="hidden" name="_subject" value="Email from Mike's portfolio" />
+                <input type="name" name="gotcha" style="display:none" />
+                
+                <textarea id="js-message" class="input-field" placeholder="Tell me I'm awesome!" rows="10" cols="20" required></textarea>
+                <button  class="button" type="submit">Send</button>
+                
+            </form>
+         </section>
+
+         <script src="vendor/jquery-2.2.0.min.js"></script>
+         <script src="js/contact.js"></script>
+    </body>
+
+</html>
